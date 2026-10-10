@@ -9,15 +9,16 @@ A backend application to manage student records using Create, Read, Update and D
 ## Installation
 
 ```bash
-
 python -m venv venv
 venv\Scripts\activate
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 ## Run
 
 ```bash
-python -m uvicorn main:app --reload```
+python -m uvicorn main:app --reload
+```
 
 Open http://127.0.0.1:8000/docs for the Swagger UI. The file `students.db` is created automatically.
 
@@ -40,21 +41,21 @@ Open http://127.0.0.1:8000/docs for the Swagger UI. The file `students.db` is cr
 
 ##Screenshots
 
-## 1. Swagger UI - API Endpoints
+### 1. Swagger UI - API Endpoints
 
-![Swagger UI](./screenshorts/swagger.png)
+![Swagger UI](./screenshots/swagger.png)
 
 ### 2. Create Student - POST /students
 
-![Create Student](./screenshorts/create.png)
+![Create Student](./screenshots/create.png)
 
 ### 3. List Students - GET /students
 
-![List Students](./screenshorts/list.png)
+![List Students](./screenshots/list.png)
 
 ### 4. Error Handling
 
-![Student Not Found](./screenshorts/error.png)
+![Student Not Found](./screenshots/error.png)
 
 ### 5. Input Validation
 
