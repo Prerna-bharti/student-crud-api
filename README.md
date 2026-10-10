@@ -59,4 +59,5 @@ Open http://127.0.0.1:8000/docs for the Swagger UI. The file `students.db` is cr
 
 ### 5. Input Validation
 
-![Validation Error](./screenshorts/validation.png)
+![Validation Error](./screenshots/validation.png)
+
